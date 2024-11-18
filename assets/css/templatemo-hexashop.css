@@ -668,97 +668,73 @@ banner
   transform: translateY(-50%);
 }
 
-.main-banner .left-content .inner-content h4 {
-  color: #fff;
-  margin-top: -10px;
+.main-banner .left-content .inner-content h1 {
   font-size: 52px;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 20px;
 }
 
-.main-banner .left-content .inner-content span {
+.main-banner .left-content .inner-content p {
   font-size: 16px;
-  color: #fff;
   font-weight: 400;
+  margin-top: 3cm;
   font-style: italic;
   display: block;
-  margin-bottom: 30px;
+}
+#inner-title{
+  color: #333;
+}
+#inner-title::selection {
+  background-color: #4CAF50; 
+  color: #fff;
+}
+#inner-para {
+  margin-top: 40px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  text-align: justify;
+  padding: 20px; 
+  background-color: #f9f9f9;
+  border-left: 4px solid #4CAF50; 
+  border-radius: 5px; 
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
-.main-banner .right-content .right-first-image {
-  margin-bottom: 28.5px;
+
+#inner-para::selection {
+  background-color: #4CAF50; 
+  color: #fff;
 }
 
-.main-banner .right-content .right-first-image .thumb {
+.main-banner .right-content .right-first-image 
+.thumb {
   position: relative;
   text-align: center;
-}
-
-.main-banner .right-content .right-first-image .thumb img {
+  margin-top: 30px;
   width: 100%;
-  overflow: hidden;
+  overflow: hidden; 
 }
 
-.main-banner .right-content .right-first-image .thumb .inner-content {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 100%;
-  text-align: center;
+
+.animated-image {
+  width: 100%; 
+  position: relative;
+  animation: sideways 5s linear infinite;
 }
 
-.main-banner .right-content .right-first-image .thumb .inner-content h4 {
-  color: #fff;
-  font-size: 24px;
-  font-weight: 700;
-  margin-bottom: 15px;
+/* sideways movement */
+@keyframes sideways {
+  0% {
+    transform: translateX(-10px);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(-10px); 
+  }
 }
-
-.main-banner .right-content .right-first-image .thumb .inner-content span {
-  font-size: 16px;
-  color: #fff;
-  font-style: italic;
-}
-
-.main-banner .right-content .right-first-image .thumb .hover-content {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  left: 15px;
-  bottom: 15px;
-  text-align: center;
-  background-color: rgba(42,42,42,.97);
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.5s;
-}
-
-.main-banner .right-content .right-first-image .thumb:hover .hover-content {
-  opacity: 1;
-  visibility: visible;
-}
-
-.main-banner .right-content .right-first-image .thumb .hover-content .inner {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-}
-
-.main-banner .right-content .right-first-image .thumb .hover-content h4 {
-  color: #fff;
-  font-size: 24px;
-  font-weight: 700;
-  margin-bottom: 15px;
-}
-
-.main-banner .right-content .right-first-image .thumb .hover-content p {
-  color: #fff;
-  padding: 0px 20px;
-  margin-bottom: 20px;
-}
-
 
 
 /*
