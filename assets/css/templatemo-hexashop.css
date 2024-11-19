@@ -1062,85 +1062,6 @@ Social
 
 /* 
 ---------------------------------------------
-Subscribe
---------------------------------------------- 
-*/
-
-.subscribe {
-  margin-top: 90px;
-}
-
-.subscribe .section-heading {
-  margin-bottom: 30px;
-}
-
-.subscribe .section-heading h2 {
-  line-height: 55px;
-}
-
-.subscribe form input {
-  width: 100%;
-  height: 44px;
-  line-height: 44px;
-  padding: 0px 15px;
-  font-size: 14px;
-  font-style: italic;
-  font-weight: 500;
-  color: #aaa;
-  border-radius: 0px;
-  border: 1px solid #7a7a7a;
-  box-shadow: none;
-}
-
-.subscribe form input::focus {
-  border-color: #2a2a2a;
-  border-radius: 0px;
-}
-
-.subscribe form button {
-  width: 44px;
-  height: 44px;
-  display: inline-block;
-  text-align: center;
-  line-height: 44px;
-  background-color: #2a2a2a;
-  box-shadow: none;
-  border: 1px solid transparent;
-  color: #fff;
-  transition: all 0.3s;
-}
-
-.subscribe form button:hover {
-  background-color: #fff;
-  border: 1px solid #2a2a2a;
-  color: #2a2a2a;
-}
-
-.subscribe ul li {
-  margin-bottom: 30px;
-  display: block;
-}
-
-.subscribe ul li {
-  font-size: 16px;
-  font-weight: 700;
-  color: #2a2a2a;
-}
-
-.subscribe ul li span,
-.subscribe ul li span a {
-  font-size: 14px;
-  font-weight: 400;
-  color: #aaa;
-}
-
-.subscribe ul li span a:hover {
-  color: #2a2a2a;
-}
-
-
-/* 
----------------------------------------------
 footer
 --------------------------------------------- 
 */
@@ -1363,232 +1284,6 @@ Products Page
   color: #fff;
 }
 
-/* 
----------------------------------------------
-About Us Page
---------------------------------------------- 
-*/
-
-.about-page-heading {
-  margin-top: 160px;
-  margin-bottom: 30px;
-  background-image: url(../images/about-us-page-heading.jpg);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.about-us {
-  margin-top: 80px;
-}
-
-.about-us .left-image img {
-  width: 100%;
-  overflow: hidden;
-}
-
-.about-us .right-content {
-  margin-left: 30px;
-}
-
-.about-us .right-content h4 {
-  font-size: 34px;
-  font-weight: 700;
-  color: #2a2a2a;
-}
-
-.about-us .right-content span {
-  font-size: 14px;
-  color: #aaaaaa;
-  font-weight: 500;
-  display: block;
-  margin-top: 25px;
-}
-
-.about-us .right-content .quote {
-  margin-top: 25px;
-}
-
-.about-us .right-content .quote i {
-  float: left;
-  font-size: 32px;
-  margin-right: 15px;
-  margin-top: 10px;
-}
-
-.about-us .right-content .quote p {
-  font-style: italic;
-  color: #2a2a2a;
-  font-weight: 500;
-}
-
-.about-us .right-content p {
-  font-size: 14px;
-  color: #aaaaaa;
-  font-weight: 500;
-  display: block;
-  margin-top: 25px;
-}
-
-.about-us .right-content ul {
-  border-top: 3px dotted #eee;
-  margin-top: 30px;
-  padding-top: 30px;
-}
-
-.about-us .right-content ul li {
-  display: inline-block;
-  margin-right: 5px;
-}
-
-.about-us .right-content ul li a {
-  width: 44px;
-  height: 44px;
-  background-color: #2a2a2a;
-  color: #fff;
-  display: inline-block;
-  text-align: center;
-  line-height: 44px;
-  border-radius: 50%;
-  transition: all .5s;
-}
-
-.about-us .right-content ul li a:hover {
-  background-color: #eee;
-  color: #2a2a2a;
-}
-
-.our-team {
-  margin-top: 100px;
-  padding-top: 90px;
-  padding-bottom: 90px;
-  border-top: 3px dotted #eee;
-}
-
-.our-team .section-heading {
-  margin-bottom: 60px;
-  text-align: center;
-}
-
-.our-team .section-heading h2 {
-  margin-bottom: 10px;
-}
-
-.our-team .team-item .thumb {
-  position: relative;
-}
-
-.our-team .team-item .thumb img {
-  width: 100%;
-  overflow: hidden;
-}
-
-.our-team .team-item .thumb .hover-effect {
-  position: absolute;
-  background-color: rgba(0,0,0,0.9);
-  width: 100%;
-  text-align: center;
-  top: 0;
-  bottom: 0;
-  opacity: 0;
-  visibility: hidden;
-  transition: all .3s;
-}
-
-.our-team .team-item .thumb:hover .hover-effect {
-  opacity: 1;
-  visibility: visible;
-}
-
-.our-team .team-item .thumb .hover-effect .inner-content {
-  position: absolute;
-  top: 50%;
-  text-align: center;
-  width: 100%;
-  transform: translateY(-22px);
-}
-
-.our-team .team-item .thumb .hover-effect .inner-content ul li {
-  display: inline-block;
-  margin: 0px 5px;
-}
-
-.our-team .team-item .thumb .hover-effect .inner-content ul li a {
-  width: 44px;
-  height: 44px;
-  background-color: #fff;
-  color: #2a2a2a;
-  display: inline-block;
-  text-align: center;
-  line-height: 44px;
-  border-radius: 50%;
-  transition: all .3s;
-}
-
-.our-team .team-item .thumb .hover-effect .inner-content ul li a:hover {
-  background-color: #2a2a2a;
-  color: #fff;
-}
-
-.our-team .team-item .down-content {
-  text-align: center;
-  padding-top: 25px;
-}
-
-.our-team .team-item .down-content h4 {
-  font-size: 24px;
-  color: #2a2a2a;
-  font-weight: 700;
-  margin-bottom: 5px;
-}
-
-.our-team .team-item .down-content span {
-  font-size: 14px;
-  color: #a1a1a1;
-  font-weight: 500;
-  display: block;
-  font-style: italic;
-}
-
-.our-services {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  border-top: 3px dotted #eee;
-  border-bottom: 3px dotted #eee;
-}
-
-.our-services .section-heading {
-  margin-bottom: 60px;
-  text-align: center;
-}
-
-.our-services .section-heading h2 {
-  margin-bottom: 10px;
-}
-
-.our-services .service-item {
-  padding: 30px;
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.10);
-  text-align: center;
-}
-
-.our-services .service-item img {
-  width: 100%;
-  overflow: hidden;
-}
-
-.our-services .service-item h4 {
-  font-size: 24px;
-  font-weight: 700;
-  color: #2a2a2a;
-  margin-bottom: 20px;
-}
-
-.our-services .service-item p {
-  margin-bottom: 25px;
-}
-
-
 
 /* 
 ---------------------------------------------
@@ -1670,7 +1365,92 @@ contact Us Page
   border: 1px solid #2a2a2a;
   color: #2a2a2a;
 }
+.contact {
+  padding: 50px 15px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
 
+.section-heading h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.section-heading span {
+  display: block;
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+form#contact input,
+form#contact textarea {
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #333;
+  outline: none;
+}
+
+form#contact textarea {
+  resize: none;
+}
+
+form#contact button {
+  background-color: green; 
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form#contact button:hover {
+  background-color: #4CAF50;
+}
+
+.contact ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact ul li {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #333;
+}
+
+.contact ul li span {
+  display: block;
+  font-size: 14px;
+  color: #555;
+}
+
+.contact ul li span a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contact ul li span a:hover {
+  color: #0056b3;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .contact .row {
+      flex-direction: column;
+  }
+}
 
 /* 
 ---------------------------------------------
@@ -1711,17 +1491,6 @@ responsive
   #explore .right-content .types {
     margin-top: 30px;
   }
-  .subscribe input {
-    margin-bottom: 15px;
-  }
-  .subscribe form {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  .about-us .right-content {
-    margin-left: 0px;
-    margin-top: 30px;
-  }
   .our-team .team-item {
     margin-bottom: 30px;
   }
@@ -1740,9 +1509,6 @@ responsive
     top: 47.5%;
     transform: translate(-50%,-50%);
     text-align: center;
-  }
-  .subscribe form button {
-    width: 100%;
   }
   footer {
     text-align: center;
