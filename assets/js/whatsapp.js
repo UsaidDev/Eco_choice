@@ -7,7 +7,7 @@ function sendWhatsAppMessage(event) {
     const message = document.getElementById("message").value;
 
     // Construct WhatsApp message
-    const whatsappNumber = "9207864585";
+    const whatsappNumber = "+91 9207864585";
     const whatsappMessage = `Hello,%0A%0AYou have a new message from your website:%0A%0AName: ${encodeURIComponent(name)}%0AEmail: ${encodeURIComponent(email)}%0AMessage: ${encodeURIComponent(message)}`;
 
     // Redirect to WhatsApp Web
