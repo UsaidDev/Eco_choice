@@ -270,6 +270,13 @@ header
   line-height: 75px;
 }
 
+.header-area .main-nav .logo img {
+  max-height: 56px; 
+  width: auto;      
+  display: block;
+  margin-top:13px ;
+}
+
 .background-header .nav {
   margin-top: 20px !important;
 }
