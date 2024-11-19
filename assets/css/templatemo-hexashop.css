@@ -1049,15 +1049,25 @@ Social
   right: 0;
   top: 0;
   width: 100%;
-  background-color: rgba(0,0,0,0.85);
+  background-color: rgba(32, 27, 27, 0.85);
   opacity: 0;
   visibility: hidden;
   transition: all .3s;
+}
+.thumb {
+  margin-bottom: 20px; 
+}
+
+.thumb img {
+  width: 100%;  
+  height: auto; 
+  border-radius: 5px;
 }
 
 #social .thumb:hover .icon {
   opacity: 1;
   visibility: visible;
+  border-radius: 10px;
 }
 
 #social .thumb .icon h6 {
