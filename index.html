@@ -94,7 +94,15 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var myCarousel = new bootstrap.Carousel(document.getElementById('bannerCarousel'), {
+                interval: 3000, // Change slide every 1 second
+                wrap: true // Continuously loop
+            });
+        });
+    </script>
     <!--End home-->
 
     <!-- ***** Men Area Starts ***** -->
@@ -290,7 +298,7 @@
                                 <p class="text-muted small">Our products are 100% recyclable.</p>
                             </div>
                         </div>
-    
+   
                         <!-- Customizable Icon -->
                         <div class="d-flex align-items-center">
                             <div class="icon-box text-white rounded-circle d-flex justify-content-center align-items-center me-3" style="width: 60px; height: 60px;">
@@ -306,10 +314,6 @@
             </div>
         </div>
     </section>
-    
-    
-    
-    
     
     
     <!--End Feature-->
@@ -575,12 +579,12 @@
         });
 
         // Banner carousal
-        document.addEventListener('DOMContentLoaded', function () {
-            var myCarousel = new bootstrap.Carousel(document.getElementById('bannerCarousel'), {
-                interval: 3000, // Change slide every 1 second
-                wrap: true // Continuously loop
-            });
-        });
+        // document.addEventListener('DOMContentLoaded', function () {
+        //     var myCarousel = new bootstrap.Carousel(document.getElementById('bannerCarousel'), {
+        //         interval: 3000, // Change slide every 1 second
+        //         wrap: true // Continuously loop
+        //     });
+        // });
     </script>
 
 </body>
