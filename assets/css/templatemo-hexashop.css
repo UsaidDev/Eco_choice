@@ -1906,6 +1906,36 @@ responsive
   margin-bottom: 30px;
 }
 
+/* Social Media Icons Styles */
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icon {
+  font-size: 30px;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #000; /* Default color */
+  transition: color 0.3s ease;
+}
+
+.social-icon.instagram {
+  color: #e4405f; /* Instagram color */
+}
+
+.social-icon.facebook {
+  color: #3b5998; /* Facebook color */
+}
+
+.social-icon.whatsapp {
+  color: #25d366; /* WhatsApp color */
+}
+
+.social-icon:hover {
+  color: #ffcc00; /* Hover color (optional) */
+}
+
+
 .icon-box i {
   font-size: 40px;
   margin-right: 20px;
