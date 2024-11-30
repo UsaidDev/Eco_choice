@@ -14,3 +14,4 @@ function sendWhatsAppMessage(event) {
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
     window.open(whatsappURL, "_blank");
 }
+
