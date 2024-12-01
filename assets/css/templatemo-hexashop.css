@@ -298,7 +298,10 @@ body {
   transform: scale(1.1);
 }
 
-
+.full-width-image {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}
 
 
 /* 
